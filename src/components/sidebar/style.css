@@ -1,0 +1,26 @@
+.app-sidebar {
+    height: 100%;
+    width: 150px;
+    flex-shrink: 0;
+    background: #191718;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-home {
+    font-weight: bold;
+}
+.nav-item {
+    border-bottom: 1px solid #5c5c5c;
+    color: #aaaaaa;
+    height: 44px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+.nav-item:hover {
+    color: white;
+    background-color: #5c5c5c;
+}

@@ -1,0 +1,15 @@
+.app-item {
+}
+.item-content {
+    text-align: left;
+}
+.item-content-img {
+    float: left;
+    width: 128px;
+    height: 128px;
+    padding-right: 1em;
+}
+.item-title {
+    width: fit-content;
+    width: -moz-fit-content;
+}
